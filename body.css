@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000;
+}
+
+#game-board {
+    width: 400px;
+    height: 400px;
+    background-color: #111;
+    position: relative;
+}
+
+.snake {
+    width: 20px;
+    height: 20px;
+    background-color: #0f0;
+    position: absolute;
+}
+
+.food {
+    width: 20px;
+    height: 20px;
+    background-color: #f00;
+    position: absolute;
+}
+
+#retry-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    display: none; /* Hidden by default */
+}
