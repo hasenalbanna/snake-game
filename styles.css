@@ -11,11 +11,12 @@ body {
 #game-board {
     width: 400px;
     height: 400px;
-    background-color: #111;
+    background-color: fffafa;
     position: relative;
 }
 
 .snake {
+     background-image: url('d:\kdu\2ns semester\modules\web development\A2NSEA\images\ascsdc.jpg');
     width: 20px;
     height: 20px;
     background-color: #0f0;
